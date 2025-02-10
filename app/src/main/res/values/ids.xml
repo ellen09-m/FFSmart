@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="expiryCard" type="id" />
+    <item name="expiryProgressBar" type="id" />
+    <item name="itemCountText" type="id" />
+    <item name="expiringCountText" type="id" />
+    <item name="selectedDateText" type="id" />
+    <item name="eventListView" type="id" />
+    <item name="eventInput" type="id" />
+    <item name="addEventButton" type="id" />
+    <item name="serviceSupportTitle" type="id" />
+    <item name="contactSupportButton" type="id" />
+    <item name="faqRecyclerView" type="id" />
+    <item name="maintenance_type" type="id" />
+    <item name="date" type="id" />
+    <item name="description" type="id" />
+    <item name="maintenanceRecyclerView" type="id" />
+    <item name="addMaintenanceIssueButton" type="id" />
+    <item name="editTextAccountNumber" type="id" />
+    <item name="editTextCVV" type="id" />
+    <item name="editTextExpirationDate" type="id" />
+    <item name="buttonSubmitBankDetails" type="id" />
+    <item name="completeBtn" type="id" />
+    <item name="delivery" type="id" />
+    <item name="items" type="id" />
+    <item name="BarcodeBtn" type="id" />
+
+</resources>

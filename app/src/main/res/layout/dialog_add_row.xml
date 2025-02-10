@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- EditText for Item Name -->
+    <!--suppress AndroidDomInspection -->
+    <EditText
+        android:id="@+id/itemNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="@string/enter_item_name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+    <!-- EditText for Quantity -->
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/enter_quantity"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+    <!-- EditText for expiry date -->
+    <EditText
+        android:id="@+id/expiryDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="date"
+        android:hint="@string/enter_expiry_date_mm_dd_yyyy"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <!-- Button to submit data -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/save"
+        android:textColor="#212121"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="jasmine_hollow">Jasmine Hollow</string>
+    <string name="item_name">Item Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="apple">Apple</string>
+    <string name="_20">20</string>
+    <string name="_12_04_2025">12/04/2025</string>
+    <string name="add_items">Add Items</string>
+    <string name="add_row">Add Row</string>
+    <string name="enter_item_name">Enter item name</string>
+    <string name="expiry_dat">Expiry Date</string>
+    <string name="enter_quantity">Enter quantity</string>
+    <string name="save">Save</string>
+    <string name="enter_expiry_date_mm_dd_yyyy">Enter expiry date (MM/DD/YYYY)</string>
+    <string name="ffsmart_fridges">FFSMART FRIDGES</string>
+    <string name="search">Search</string>
+    <string name="inventory">Inventory</string>
+    <string name="create_report">Create Report</string>
+    <string name="_1">1</string>
+    <string name="total_0_00">Total: £0.00</string>
+    <string name="your_basket">Your Basket</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string-array name="quantity_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+        <string-array name="meat_quantities">
+            <item>Small</item>
+            <item>Medium</item>
+            <item>Large</item>
+            <!-- You can also use specific weights -->
+            <item>100g</item>
+            <item>200g</item>
+            <item>500g</item>
+        </string-array>
+    <string-array name="language_options">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>German</item></string-array>
+    <string-array name="role_options">
+        <item>Kitchen Staff</item>
+        <item>Chef</item>
+    </string-array>
+
+
+
+
+
+</resources>
