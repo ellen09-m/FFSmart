@@ -16,6 +16,31 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".UpdatesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SavedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreviousReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactRestaurantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SubmitReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HealthSafetyActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -36,9 +61,9 @@
         <activity android:name=".DeliveryActivity" />
         <activity android:name=".SettingsActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".AdminActivity"
-            android:exported="true"/>
-
+        <activity
+            android:name=".AdminActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

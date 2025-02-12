@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_explore"
+        android:icon="@drawable/ic_explore"
+        android:title="Explore"/>
+    <item
+        android:id="@+id/nav_saved"
+        android:icon="@drawable/ic_saved"
+        android:title="Saved"/>
+    <item
+        android:id="@+id/nav_updates"
+        android:icon="@drawable/ic_updates"
+        android:title="Updates"/>
+</menu>

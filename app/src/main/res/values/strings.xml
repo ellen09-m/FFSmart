@@ -30,27 +30,25 @@
         <item>5</item>
     </string-array>
 
-        <string-array name="meat_quantities">
-            <item>Small</item>
-            <item>Medium</item>
-            <item>Large</item>
-            <!-- You can also use specific weights -->
-            <item>100g</item>
-            <item>200g</item>
-            <item>500g</item>
-        </string-array>
+    <string-array name="meat_quantities">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <!-- You can also use specific weights -->
+        <item>100g</item>
+        <item>200g</item>
+        <item>500g</item>
+    </string-array>
     <string-array name="language_options">
         <item>English</item>
         <item>French</item>
         <item>Spanish</item>
-        <item>German</item></string-array>
+        <item>German</item>
+    </string-array>
     <string-array name="role_options">
         <item>Kitchen Staff</item>
         <item>Chef</item>
     </string-array>
-
-
-
 
 
 </resources>

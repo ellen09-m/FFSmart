@@ -6,4 +6,6 @@
     <color name="colorInventory">#4CAF50</color> <!-- Green for Inventory -->
     <color name="colorHealthSafety">#2196F3</color>
     <color name="colorExpired">#FF0000</color>
+    <color name="logo_blue">#003366</color>
+    <color name="dark_blue">#003366</color>
 </resources>
