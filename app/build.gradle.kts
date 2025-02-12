@@ -30,7 +30,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 }
-
 dependencies {
 
     implementation(libs.appcompat)
@@ -42,13 +41,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    androidTestImplementation("androidx.test.espresso:espresso-intents:3.5.1") // Add this line
     implementation (libs.recyclerview.v121)
     implementation(libs.core)
     testImplementation (libs.robolectric)
     testImplementation (libs.mockito.core)
     testImplementation (libs.shadows.core)
-
-
-
-
 }
